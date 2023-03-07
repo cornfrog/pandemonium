@@ -1,0 +1,143 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile Display */
+@media screen and (max-width: 480px) {
+    #home-banner{
+        height: 10%;
+        width: 100%;
+        background-color: slategray;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #banner-title{
+        padding-left: 7%;
+        user-select: none;
+        font-size: 1.5rem;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Philosopher', sans-serif; 
+    }
+    #banner-menu{
+        padding-right: 10%;
+        font-size: 1.65rem;
+    }
+
+    #menu-list{
+        display: none;
+        position: absolute;
+        height: 23%;
+        width: 20%;
+        border-radius: 15%;
+        padding-left: 4%;
+        padding-right: 9%;
+        padding-bottom: 2%;
+        margin-left: 65%;
+        background: #a9a9a9;
+        font-size: 1.5rem;
+        line-height: 250%;
+        transition: 0.5s;
+        font-family: 'Philosopher';
+    }
+
+    #menu-list > a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #prod-content{
+        height: 100%;
+        width: 100%;
+        background-color: lightgray;
+    }
+
+    #filter-section{
+        height: 15%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 12%;
+    }
+
+    #filter-header{
+        text-align: center;
+        font-family: 'Philosopher';
+        font-size: 1.7rem;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        user-select: none;
+    }
+
+    #filter-choices{
+        display: flex;
+        align-items: center;
+        justify-content: space-around ;
+    }
+    
+    .filter-choice{
+        font-size: 1.25rem;
+        font-family: 'Philosopher';
+        padding: 2.5%;
+        background-color: gray;
+        border-radius: 7%;
+        user-select: none;
+    }
+
+    #all-btn{
+        background-color: dimgray;
+        border-color: black;
+        color: white;
+    }
+
+    #religion-section{
+        height: 35%;
+        width: 100%;
+    }
+
+    #science-section{
+        height: 35%;
+        width: 100%;
+    }
+
+    .header{
+        font-family: 'Philosopher';
+        font-size: 1.6rem;
+        display: table;
+        margin: 0 auto;
+        text-decoration: underline;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .item-showcase{
+        height: 85%;
+        width: 95%;
+        background-color: slategrey;
+        margin: 0 auto;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .item{
+        background-color: white;
+        height: 85%;
+        width: 55%;
+        border-radius: 15%;
+        display: inline-block;
+        margin: 4% 5% 5% 0%;
+        border: 5px solid black;
+    }
+
+    .first-item{
+        margin-left: 5%;
+    }
+
+}

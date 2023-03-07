@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Pandemonium - Home</title>
+        <title>Pandemonium - Products</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="utf-8">
         <meta lang="en">
@@ -12,8 +12,60 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nova+Script&display=swap" rel="stylesheet">
+        <script src="../js/menu-list.js"></script>
+        <script src="../js/filter.js"></script>
     </head>
     <body>
-        <h1>hello</h1>
+        <div id="home-banner">
+            <span id="banner-title">Pandemonium</span>
+            <div id="banner-menu" onclick="menu()">
+                <span id="menu-symb">⁝</span>
+            </div>
+        </div>
+        <div id="menu-list">
+            <a href="../index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="../pages/about.html">About</a>
+        </div>
+        <div id="prod-content">
+            <div id="filter-section">
+                <div id="filter-header"><span>Catagories:</span></div>
+                <div id="filter-choices">
+                    <button class="filter-choice" onclick="AllFilter()" id="all-btn">All</button>
+                    <button class="filter-choice" onclick="RelFilter()" id="rel-btn">Religion</button>
+                    <button class="filter-choice" onclick="SciFilter()" id="sci-btn">Science</button>
+                </div>
+            </div>
+            <div id="religion-section">
+                <span class="header">Religious Section</span>
+                <div class="item-showcase">
+                    <div class="item first-item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+            <div id="science-section">
+                <span class="header">Science Section</span>
+                <div class="item-showcase">
+                    <div class="item first-item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+        </div>   
     </body>
 </html>
